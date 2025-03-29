@@ -1,0 +1,43 @@
+Model,Regression,Classification,Supervised/Unsupervised/Reinforcement
+Linear Regression,??,,Supervised
+Logistic Regression,,??,Supervised
+Ridge Regression,??,,Supervised
+Lasso Regression,??,,Supervised
+Polynomial Regression,??,,Supervised
+Support Vector Machine (SVM),?? (SVR),?? (SVC),Supervised
+Decision Tree,??,??,Supervised
+Random Forest,??,??,Supervised
+K-Nearest Neighbors (KNN),??,??,Supervised
+Gradient Boosting (GBM),??,??,Supervised
+XGBoost,??,??,Supervised
+LightGBM,??,??,Supervised
+CatBoost,??,??,Supervised
+Naive Bayes,,??,Supervised
+"Neural Networks (MLP, DNN)",??,??,Supervised
+Convolutional Neural Networks (CNN),,?? (Image),Supervised
+Recurrent Neural Networks (RNN),?? (Time Series),?? (Sequence),Supervised
+Long Short-Term Memory (LSTM),?? (Time Series),??,Supervised
+Gated Recurrent Unit (GRU),??,??,Supervised
+Principal Component Analysis (PCA),,,Unsupervised
+K-Means Clustering,,,Unsupervised
+Hierarchical Clustering,,,Unsupervised
+Gaussian Mixture Models (GMM),,,Unsupervised
+DBSCAN,,,Unsupervised
+Isolation Forest,,,Unsupervised (Anomaly Detection)
+Autoencoders,,,Unsupervised
+Generative Adversarial Networks (GANs),,,Unsupervised
+"Association Rule Learning (Apriori, Eclat)",,,Unsupervised
+Q-Learning,,,Reinforcement
+Deep Q Networks (DQN),,,Reinforcement
+Proximal Policy Optimization (PPO),,,Reinforcement
+Soft Actor-Critic (SAC),,,Reinforcement
+A3C (Asynchronous Advantage Actor-Critic),,,Reinforcement
+,,,
+,,,
+Explanation of Categories:,,,
+,,,
+"Regression – Predicts continuous values (e.g., house price prediction).",,,
+"Classification – Predicts discrete classes (e.g., spam detection).",,,
+Supervised Learning – Model learns from labeled data (input-output pairs).,,,
+Unsupervised Learning – Model finds patterns in data without labeled outputs.,,,
+Reinforcement Learning – Model learns by interacting with an environment and receiving rewards or penalties.,,,
